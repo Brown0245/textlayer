@@ -336,9 +336,9 @@ footer .in{max-width:1040px;margin:0 auto;display:flex;justify-content:space-bet
     <div class="head">
       <span class="eyebrow">Beyond onboarding</span>
       <h2>From calendar invite<br>to closed action.</h2>
-      <p class="sub">My first automation pilot: meeting prep and follow-through, adapted from Cortney Hickey's workflow at Zapier.<sup><a href="#r3">3</a></sup> The workflow drafts. I check it.</p>
+      <p class="sub">A first automation pilot, built with the CEO's assistant rather than around her: meeting prep and follow-through, adapted from Cortney Hickey's workflow at Zapier.<sup><a href="#r3">3</a></sup> The workflow does the gathering, so her time goes to judgment.</p>
     </div>
-    <div class="legend"><span><i class="mk"></i>Automated</span><span><i class="mk h"></i>Ken reviews</span></div>
+    <div class="legend"><span><i class="mk"></i>Automated</span><span><i class="mk h"></i>A person reviews</span></div>
     <div data-flow="pilot"></div>
     <div class="cells c3">
       <div><span class="when">Days 1–30</span><h3>Learn the routines</h3><p>Ownership map, baselines, and a demo on fictional data.</p></div>
@@ -362,7 +362,7 @@ footer .in{max-width:1040px;margin:0 auto;display:flex;justify-content:space-bet
       <div><span class="stat">↓<span> steps</span></span><p>Fixed our new-user setup script and cut the manual work.</p></div>
       <div><span class="sq"></span><h3>Offboarding as careful as onboarding</h3><p>Every account closed on the last day, across every platform, with a record of what was removed.</p></div>
       <div><span class="sq"></span><h3>Regular access reviews</h3><p>Who has access to what, and whether they still should, especially on client and AI platforms.</p></div>
-      <div><span class="sq"></span><h3>Alerts to the right desk</h3><p>Security alerts sorted and escalated quickly, so the CEO sees only what needs a decision.</p></div>
+      <div><span class="sq"></span><h3>Security set up at the source</h3><p>Multi-factor sign-in, device settings, and account permissions configured properly, so fewer alerts reach anyone's inbox.</p></div>
     </div>
     <div class="cells c2">
       <div><span class="eyebrow">Built, not just done</span><h3>I automate repeat work</h3><p>A bulk account tool and a templated email sender, now used across my service desk.</p></div>
@@ -427,10 +427,10 @@ footer .in{max-width:1040px;margin:0 auto;display:flex;justify-content:space-bet
     ],labels:{a:"Automated",h:"Ken owns it",p:"Architect and team"}},
     pilot:{cols:[
       {step:"Trigger",h:"Meeting booked",p:"On the existing calendar.",art:"trigger",nodes:[["a","Leadership meeting scheduled","A meeting on the existing calendar starts the run. Nothing new to adopt."]]},
-      {step:"Gather",h:"Context in one place",p:"Approved sources only.",art:"gather",nodes:[["a","Pull approved context","Client context, recent commitments, and source links."],["a","Draft the brief","Purpose, decision needed, attendees, open questions."],["a","Flag gaps or failed runs","Problems surface instead of hiding. I finish the work by hand if needed.","skip"]]},
-      {step:"Review",h:"A person checks it",p:"Before leadership sees it.",art:"review",nodes:[["h","Check and finalize","I fix errors, resolve conflicts, and cut what leadership doesn't need."],["h","Meeting and decision","Leadership arrives prepared, so time goes to the decision."]]},
-      {step:"Follow through",h:"Actions get owners",p:"In the existing tracker.",art:"follow",nodes:[["a","Draft follow-ups","Reminders and messages drafted from what was agreed."],["h","Confirm owners and dates","Nothing external goes out without my review."],["a","Tracked to done","Each action has an owner and a due date."]]}
-    ],labels:{a:"Automated",h:"Ken reviews"}}
+      {step:"Gather",h:"Context in one place",p:"Approved sources only.",art:"gather",nodes:[["a","Pull approved context","Client context, recent commitments, and source links."],["a","Draft the brief","Purpose, decision needed, attendees, open questions."],["a","Flag gaps or failed runs","Problems surface instead of hiding, so someone can finish the work by hand.","skip"]]},
+      {step:"Review",h:"A person checks it",p:"Before leadership sees it.",art:"review",nodes:[["h","Check and finalize","Whoever owns the meeting checks the draft and cuts what the CEO doesn't need. The workflow only saves them the gathering."],["h","Meeting and decision","Leadership arrives prepared, so time goes to the decision."]]},
+      {step:"Follow through",h:"Actions get owners",p:"In the existing tracker.",art:"follow",nodes:[["a","Draft follow-ups","Reminders and messages drafted from what was agreed."],["h","Confirm owners and dates","Nothing external goes out without a person reviewing it."],["a","Tracked to done","Each action has an owner and a due date."]]}
+    ],labels:{a:"Automated",h:"A person reviews"}}
   };
 
   function build(host,key){
